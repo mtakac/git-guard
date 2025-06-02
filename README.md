@@ -1,5 +1,9 @@
 # Zadání
 
+## Setup
+
+Rename `.env.example` to `.env` and replace `GITLAB_ACCESS_TOKEN` for the real access token. Then start the NextJS application `npm run dev`.
+
 Potřebujeme nástroj, kterým budeme kontrolovat, že nikdo nepovolaný nemá přístup k našim skupinám a projektům v Gitlabu.
 
 Stačí aby se nástroj spouštěl co nejjednodušším způsobem, kde dostane jako argument ID top-level skupiny pomocí formuláře a vypíše výsledek v lidsky čitelném formátu.
